@@ -1,0 +1,6 @@
+com\example\simple\SampleSimpleApplication.class
+com\example\simple\AppConfig.class
+com\example\simple\service\HelloWorldService.class
+com\example\simple\Course.class
+com\example\simple\MainApp.class
+com\example\simple\Student.class
