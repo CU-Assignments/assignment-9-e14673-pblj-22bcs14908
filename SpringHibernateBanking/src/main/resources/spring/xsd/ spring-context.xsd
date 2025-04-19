@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.springframework.org/schema/context"
+           xmlns="http://www.springframework.org/schema/context"
+           elementFormDefault="qualified">
+
+    <xs:element name="component-scan">
+        <xs:complexType>
+            <xs:attribute name="base-package" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="annotation-config" type="xs:string"/>
+</xs:schema>
